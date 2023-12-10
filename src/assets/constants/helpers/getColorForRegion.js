@@ -1,9 +1,10 @@
+
 function getColorForRegion(region) {
-    // Hier kun je de logica toevoegen om de kleur voor elke regio te bepalen
-    // Bijvoorbeeld, je kunt een switch statement gebruiken of een mapping object
+    const colorRegion = countries.map.continents
+
     switch (region) {
         case 'Africa':
-            return 'blue'; // Vervang dit met de daadwerkelijke kleur voor de regio
+            return 'blue';
         case 'Americas':
             return 'green';
         case 'Asia':
@@ -13,7 +14,7 @@ function getColorForRegion(region) {
         case 'Oceania':
             return 'purple';
         default:
-            return 'black'; // Standaardkleur als de regio niet wordt herkend
+            return 'black';
     }
 }
 export default getColorForRegion

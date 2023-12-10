@@ -53,8 +53,9 @@ function App() {
                     const countryPopulation = country.population || 'Unknown';
                     const countryFlag = country.flags.png ;
                     //const color =getColorForRegion(region);
+                    //Ik kom er niet uit hoe ik kleuren toeken aan de landen
                     return<li key={index} >
-                        <img src={countryFlag} alt={`flag of ${countryName}`}/>
+                        <img src={countryFlag} alt='flag of ${countryName}'/>
                         {countryFlag}
                         <br />
                         {countryName}
