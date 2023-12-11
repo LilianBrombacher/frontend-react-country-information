@@ -1,6 +1,6 @@
 
 function getColorForRegion(region) {
-    const colorRegion = countries.map.continents
+    //const colorRegion = countries.map.continents
 
     switch (region) {
         case 'Africa':
